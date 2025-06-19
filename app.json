@@ -25,7 +25,7 @@
     },
     "AUTO_REPLY": {
       "description": "This sets a greeting message when someone texts you automatically",
-      "value": "yes",
+      "value": "no",
       "required": false
     },
         "AUTOBIO": {
@@ -60,7 +60,7 @@
     },
     "PUBLIC_MODE": {
       "description": "Set 'yes' to make your bot public or 'no' to keep it private",
-      "value": "yes",
+      "value": "no",
       "required": false
     },
     "HEROKU_API_KEY": {
@@ -75,12 +75,12 @@
     },
     "SESSION_ID": {
       "description": "Enter your session ID, the code you receive after scanning the QR code",
-      "value": "",
+      "value": "eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQUErVVlsV2ZxdUIxSkhVanZyaXgyaXk5SWt3eWI3M1lJWkNrK0M3MkFudz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiSTRhN3FtdE1tSjdWTXpubDA3a3MvN2QrMmo1WGtlczRyYTFDaDlNanRGcz0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJRQ29HNnNaYnNaMUtQT1pwSWNpYm9tV21rM1d3OGQ2NmY2VmRlUzk3RTJBPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJPSzROejVlaWpmd242dkFxK3RLd2NtS2NRL29ZclA1c3l2dUFXdWM0REJRPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IklOOEZWMG9xbTZoV3g2TmwyL01ZR3dhZ2QzZkNxdWVrLzlZL2FrMkw1Vk09In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Ik1ZNytVV3ZzRzM4emhNMkJSRVF5LzRxUXdaYStEMFo5WDZuc0Z6cGVGRlk9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoibUFNRi9YbVhqSUR3SFNkYXd2WG1SM0ZUTjJUNTQvUFRQeXJhVEpnUXpFYz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiVzkxRS9JV0xRaWZSeVFwazNKM1hlVEtTS05jM1IxTXphZUk2bmhXcWIzWT0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImpNTjlDZFZpMFRLQVNia2U0SHYwc3ZpWmJYTFBGN3FjWUR6OXMzZ25RRHZMU2NrSGxsNXpNZTVRYS9VV1g2UlBlY1N5MWM2Q1QrN3VxUkEzT3dCR2d3PT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MzYsImFkdlNlY3JldEtleSI6Ilc3MFpNRzBpMUhVdXFsc004RzBwaFNlYXZHTUFrUE41UjdLdG9teFRQcDQ9IiwicHJvY2Vzc2VkSGlzdG9yeU1lc3NhZ2VzIjpbXSwibmV4dFByZUtleUlkIjozMSwiZmlyc3RVbnVwbG9hZGVkUHJlS2V5SWQiOjMxLCJhY2NvdW50U3luY0NvdW50ZXIiOjAsImFjY291bnRTZXR0aW5ncyI6eyJ1bmFyY2hpdmVDaGF0cyI6ZmFsc2V9LCJyZWdpc3RlcmVkIjp0cnVlLCJwYWlyaW5nQ29kZSI6Ik5TMjFSWDE0IiwibWUiOnsiaWQiOiIyNTU2MTE0MjU0Njg6NDVAcy53aGF0c2FwcC5uZXQiLCJuYW1lIjoiYWxpc29uIiwibGlkIjoiODUxNzU1NzY5MDU0Mzo0NUBsaWQifSwiYWNjb3VudCI6eyJkZXRhaWxzIjoiQ05MeTJQVUZFTzNXejhJR0dCSWdBQ2dBIiwiYWNjb3VudFNpZ25hdHVyZUtleSI6InljTm5ieE9FaWgxcm5RZTlRbThpQlluT2dWY1FGRVVLSWtoL25lR2JObnM9IiwiYWNjb3VudFNpZ25hdHVyZSI6ImxLTkZqak0vS1FDbGRET3EvSDVSR0VBRExKWVRtaEFNVW9oQzdEbEsvUElTZGVTMjBxVzUvdGNNMlM0cFQ4VlMyOTQzem9VcjZJOExjeThybUdMTkFnPT0iLCJkZXZpY2VTaWduYXR1cmUiOiJ2Z1JMNUROd1lMV09DMnJNYkpYTXl4V2tzdDIrenBUOTVUNDdFUHplOHhQSHVTbFhQbzhhUG9xRkhEYkVtTVlMN1VzYVdycDdzd3dSWlZJYW5KU0ZnQT09In0sInNpZ25hbElkZW50aXRpZXMiOlt7ImlkZW50aWZpZXIiOnsibmFtZSI6IjI1NTYxMTQyNTQ2ODo0NUBzLndoYXRzYXBwLm5ldCIsImRldmljZUlkIjowfSwiaWRlbnRpZmllcktleSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkJjbkRaMjhUaElvZGE1MEh2VUp2SWdXSnpvRlhFQlJGQ2lKSWY1M2htelo3In19XSwicGxhdGZvcm0iOiJzbWJhIiwicm91dGluZ0luZm8iOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJDQWdJQWc9PSJ9LCJsYXN0QWNjb3VudFN5bmNUaW1lc3RhbXAiOjE3NTAzMzAyMzYsImxhc3RQcm9wSGFzaCI6IjJQMVloZiIsIm15QXBwU3RhdGVLZXlJZCI6IkFBQUFBR0U1In0=",
       "required": true
     },
     "OWNER_NAME": {
       "description": "Your name",
-      "value": "Toputech",
+      "value": "alisontech",
       "required": false
     },
     "AUTO_READ_MESSAGES": {
@@ -90,7 +90,7 @@
     },
     "NUMERO_OWNER": {
       "description": "Your phone number (exclude '+' and area code, e.g., '255673750170')",
-      "value": "255673750170",
+      "value": "255611425468",
       "required": false
     },
     "WARN_COUNT": {
@@ -100,12 +100,12 @@
     },
     "PRESENCE": {
       "description": "Mark your presence: 1 for online, 2 for typing, 3 for recording, or leave blank for real state",
-      "value": "",
+      "value": "1",
       "required": false
     },
     "ANTI_DELETE_MESSAGE": {
       "description": "Enable anti-delete message (set 'yes' to activate or 'no' to deactivate)",
-      "value": "yes",
+      "value": "no",
       "required": false
     },
     "ANTICALL": {
